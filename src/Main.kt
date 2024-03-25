@@ -14,7 +14,7 @@ fun exclude( word: String){
     println( sentence.split('b'))
 
 }
-class Voulume(val pie: Double, val fraction:Double, var radius: Double){
+class Volume(val pie: Double, val fraction:Double, var radius: Double){
     fun volume(){
         var total = pie*fraction*(radius*radius*radius)
         println(total)
